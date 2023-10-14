@@ -1,0 +1,36 @@
+.gridbox {
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.content {
+    height: 350px;
+}
+
+.left{
+    padding: 15px;
+}
+
+h4{
+    margin: 3px 0px;
+}
+#h5{
+    margin: 0;
+}
+
+.right {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
